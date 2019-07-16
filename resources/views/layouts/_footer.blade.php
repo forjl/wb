@@ -5,6 +5,8 @@
   </a>
 
   <div class="float-right">
-    <a href="/about" >关于</a>
+    <a href="{{ route('about') }}" >关于</a>
+    &nbsp;
+    <a href="{{ route('help') }}" >帮助</a>
   </div>
 </footer>
