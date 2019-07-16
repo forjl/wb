@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<title>@yield('title','WB APP') - 我的第一个laravel项目</title>
-    <link rel="stylesheet" type="text/css" href="/css/app.css">
+    <link rel="stylesheet" type="text/css" href="{{ mix('css/app.css') }}">
 	</head>
 
 	<body>
